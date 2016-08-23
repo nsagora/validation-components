@@ -18,6 +18,13 @@
 		FA19047B1D6AD6E1005E1E89 /* ValidationComponents.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA1904721D6AD6E1005E1E89 /* ValidationComponents.framework */; };
 		FA1904971D6AD708005E1E89 /* ValidationComponents.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA19048E1D6AD708005E1E89 /* ValidationComponents.framework */; };
 		FA1904B91D6AD99E005E1E89 /* ValidationComponents.h in Headers */ = {isa = PBXBuildFile; fileRef = FA1904B41D6AD99E005E1E89 /* ValidationComponents.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FA6A28251D6CE7EA00C2CA0B /* ValueMathcingValidationPredicate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA6A28241D6CE7EA00C2CA0B /* ValueMathcingValidationPredicate.swift */; };
+		FA6A28261D6CE7EA00C2CA0B /* ValueMathcingValidationPredicate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA6A28241D6CE7EA00C2CA0B /* ValueMathcingValidationPredicate.swift */; };
+		FA6A28271D6CE7EA00C2CA0B /* ValueMathcingValidationPredicate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA6A28241D6CE7EA00C2CA0B /* ValueMathcingValidationPredicate.swift */; };
+		FA6A28291D6CE84C00C2CA0B /* ValueMatchingValidationPredicate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA6A28281D6CE84C00C2CA0B /* ValueMatchingValidationPredicate.swift */; };
+		FA6A282A1D6CE84C00C2CA0B /* ValueMatchingValidationPredicate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA6A28281D6CE84C00C2CA0B /* ValueMatchingValidationPredicate.swift */; };
+		FA6A282B1D6CE84C00C2CA0B /* ValueMatchingValidationPredicate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA6A28281D6CE84C00C2CA0B /* ValueMatchingValidationPredicate.swift */; };
+		FA6A282C1D6CE84C00C2CA0B /* ValueMatchingValidationPredicate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA6A28281D6CE84C00C2CA0B /* ValueMatchingValidationPredicate.swift */; };
 		FAE2BA2C1D6AD9C80020512C /* ValidationComponents.h in Headers */ = {isa = PBXBuildFile; fileRef = FA1904B41D6AD99E005E1E89 /* ValidationComponents.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FAE2BA2D1D6AD9C90020512C /* ValidationComponents.h in Headers */ = {isa = PBXBuildFile; fileRef = FA1904B41D6AD99E005E1E89 /* ValidationComponents.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FAE2BA2E1D6AD9C90020512C /* ValidationComponents.h in Headers */ = {isa = PBXBuildFile; fileRef = FA1904B41D6AD99E005E1E89 /* ValidationComponents.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -64,6 +71,8 @@
 		FA1904B31D6AD99E005E1E89 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FA1904B41D6AD99E005E1E89 /* ValidationComponents.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ValidationComponents.h; sourceTree = "<group>"; };
 		FA1904B61D6AD99E005E1E89 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA6A28241D6CE7EA00C2CA0B /* ValueMathcingValidationPredicate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ValueMathcingValidationPredicate.swift; sourceTree = "<group>"; };
+		FA6A28281D6CE84C00C2CA0B /* ValueMatchingValidationPredicate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ValueMatchingValidationPredicate.swift; sourceTree = "<group>"; };
 		FAE2BA381D6AEBD70020512C /* ValidationKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ValidationKit.framework; path = ../Carthage/Build/Mac/ValidationKit.framework; sourceTree = "<group>"; };
 		FAE2BA3A1D6AEBE20020512C /* ValidationKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ValidationKit.framework; path = ../Carthage/Build/iOS/ValidationKit.framework; sourceTree = "<group>"; };
 		FAE2BA3C1D6AEBEC0020512C /* ValidationKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ValidationKit.framework; path = ../Carthage/Build/tvOS/ValidationKit.framework; sourceTree = "<group>"; };
@@ -158,6 +167,7 @@
 			isa = PBXGroup;
 			children = (
 				FA0B3A601D6CD51C00E8F2AD /* EmailValidationPredicate.swift */,
+				FA6A28281D6CE84C00C2CA0B /* ValueMatchingValidationPredicate.swift */,
 				FAE2BA351D6ADAB40020512C /* Supporting Files */,
 			);
 			path = Sources;
@@ -167,6 +177,7 @@
 			isa = PBXGroup;
 			children = (
 				FA0B3A651D6CD52F00E8F2AD /* EmailValidationRuleTests.swift */,
+				FA6A28241D6CE7EA00C2CA0B /* ValueMathcingValidationPredicate.swift */,
 				FAE2BA361D6ADAB80020512C /* Supporting Files */,
 			);
 			path = Tests;
@@ -560,6 +571,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FA0B3A611D6CD51C00E8F2AD /* EmailValidationPredicate.swift in Sources */,
+				FA6A28291D6CE84C00C2CA0B /* ValueMatchingValidationPredicate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -568,6 +580,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FA0B3A671D6CD53700E8F2AD /* EmailValidationRuleTests.swift in Sources */,
+				FA6A28251D6CE7EA00C2CA0B /* ValueMathcingValidationPredicate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -576,6 +589,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FA0B3A621D6CD52000E8F2AD /* EmailValidationPredicate.swift in Sources */,
+				FA6A282A1D6CE84C00C2CA0B /* ValueMatchingValidationPredicate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -584,6 +598,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FA0B3A681D6CD53800E8F2AD /* EmailValidationRuleTests.swift in Sources */,
+				FA6A28261D6CE7EA00C2CA0B /* ValueMathcingValidationPredicate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -592,6 +607,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FA0B3A631D6CD52300E8F2AD /* EmailValidationPredicate.swift in Sources */,
+				FA6A282B1D6CE84C00C2CA0B /* ValueMatchingValidationPredicate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -600,6 +616,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FA0B3A691D6CD53900E8F2AD /* EmailValidationRuleTests.swift in Sources */,
+				FA6A28271D6CE7EA00C2CA0B /* ValueMathcingValidationPredicate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -608,6 +625,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FA0B3A641D6CD52300E8F2AD /* EmailValidationPredicate.swift in Sources */,
+				FA6A282C1D6CE84C00C2CA0B /* ValueMatchingValidationPredicate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
