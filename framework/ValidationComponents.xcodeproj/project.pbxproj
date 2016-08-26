@@ -18,6 +18,13 @@
 		FA19047B1D6AD6E1005E1E89 /* ValidationComponents.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA1904721D6AD6E1005E1E89 /* ValidationComponents.framework */; };
 		FA1904971D6AD708005E1E89 /* ValidationComponents.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA19048E1D6AD708005E1E89 /* ValidationComponents.framework */; };
 		FA1904B91D6AD99E005E1E89 /* ValidationComponents.h in Headers */ = {isa = PBXBuildFile; fileRef = FA1904B41D6AD99E005E1E89 /* ValidationComponents.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FA2293F11D7096EF00CBB386 /* URLValidationRule.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2293F01D7096EF00CBB386 /* URLValidationRule.swift */; };
+		FA2293F21D7096EF00CBB386 /* URLValidationRule.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2293F01D7096EF00CBB386 /* URLValidationRule.swift */; };
+		FA2293F31D7096EF00CBB386 /* URLValidationRule.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2293F01D7096EF00CBB386 /* URLValidationRule.swift */; };
+		FA2293F41D7096EF00CBB386 /* URLValidationRule.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2293F01D7096EF00CBB386 /* URLValidationRule.swift */; };
+		FA2293F61D7097A100CBB386 /* URLValidationPredicateTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2293F51D7097A100CBB386 /* URLValidationPredicateTests.swift */; };
+		FA2293F71D7097A100CBB386 /* URLValidationPredicateTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2293F51D7097A100CBB386 /* URLValidationPredicateTests.swift */; };
+		FA2293F81D7097A100CBB386 /* URLValidationPredicateTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2293F51D7097A100CBB386 /* URLValidationPredicateTests.swift */; };
 		FA6A28251D6CE7EA00C2CA0B /* ValueMathcingValidationPredicate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA6A28241D6CE7EA00C2CA0B /* ValueMathcingValidationPredicate.swift */; };
 		FA6A28261D6CE7EA00C2CA0B /* ValueMathcingValidationPredicate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA6A28241D6CE7EA00C2CA0B /* ValueMathcingValidationPredicate.swift */; };
 		FA6A28271D6CE7EA00C2CA0B /* ValueMathcingValidationPredicate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA6A28241D6CE7EA00C2CA0B /* ValueMathcingValidationPredicate.swift */; };
@@ -71,6 +78,8 @@
 		FA1904B31D6AD99E005E1E89 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FA1904B41D6AD99E005E1E89 /* ValidationComponents.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ValidationComponents.h; sourceTree = "<group>"; };
 		FA1904B61D6AD99E005E1E89 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA2293F01D7096EF00CBB386 /* URLValidationRule.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = URLValidationRule.swift; sourceTree = "<group>"; };
+		FA2293F51D7097A100CBB386 /* URLValidationPredicateTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = URLValidationPredicateTests.swift; sourceTree = "<group>"; };
 		FA6A28241D6CE7EA00C2CA0B /* ValueMathcingValidationPredicate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ValueMathcingValidationPredicate.swift; sourceTree = "<group>"; };
 		FA6A28281D6CE84C00C2CA0B /* ValueMatchingValidationPredicate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ValueMatchingValidationPredicate.swift; sourceTree = "<group>"; };
 		FAE2BA381D6AEBD70020512C /* ValidationKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ValidationKit.framework; path = ../Carthage/Build/Mac/ValidationKit.framework; sourceTree = "<group>"; };
@@ -167,6 +176,7 @@
 			isa = PBXGroup;
 			children = (
 				FA0B3A601D6CD51C00E8F2AD /* EmailValidationPredicate.swift */,
+				FA2293F01D7096EF00CBB386 /* URLValidationRule.swift */,
 				FA6A28281D6CE84C00C2CA0B /* ValueMatchingValidationPredicate.swift */,
 				FAE2BA351D6ADAB40020512C /* Supporting Files */,
 			);
@@ -177,6 +187,7 @@
 			isa = PBXGroup;
 			children = (
 				FA0B3A651D6CD52F00E8F2AD /* EmailValidationRuleTests.swift */,
+				FA2293F51D7097A100CBB386 /* URLValidationPredicateTests.swift */,
 				FA6A28241D6CE7EA00C2CA0B /* ValueMathcingValidationPredicate.swift */,
 				FAE2BA361D6ADAB80020512C /* Supporting Files */,
 			);
@@ -571,6 +582,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FA0B3A611D6CD51C00E8F2AD /* EmailValidationPredicate.swift in Sources */,
+				FA2293F11D7096EF00CBB386 /* URLValidationRule.swift in Sources */,
 				FA6A28291D6CE84C00C2CA0B /* ValueMatchingValidationPredicate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -581,6 +593,7 @@
 			files = (
 				FA0B3A671D6CD53700E8F2AD /* EmailValidationRuleTests.swift in Sources */,
 				FA6A28251D6CE7EA00C2CA0B /* ValueMathcingValidationPredicate.swift in Sources */,
+				FA2293F61D7097A100CBB386 /* URLValidationPredicateTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -589,6 +602,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FA0B3A621D6CD52000E8F2AD /* EmailValidationPredicate.swift in Sources */,
+				FA2293F21D7096EF00CBB386 /* URLValidationRule.swift in Sources */,
 				FA6A282A1D6CE84C00C2CA0B /* ValueMatchingValidationPredicate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -599,6 +613,7 @@
 			files = (
 				FA0B3A681D6CD53800E8F2AD /* EmailValidationRuleTests.swift in Sources */,
 				FA6A28261D6CE7EA00C2CA0B /* ValueMathcingValidationPredicate.swift in Sources */,
+				FA2293F71D7097A100CBB386 /* URLValidationPredicateTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -607,6 +622,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FA0B3A631D6CD52300E8F2AD /* EmailValidationPredicate.swift in Sources */,
+				FA2293F31D7096EF00CBB386 /* URLValidationRule.swift in Sources */,
 				FA6A282B1D6CE84C00C2CA0B /* ValueMatchingValidationPredicate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -617,6 +633,7 @@
 			files = (
 				FA0B3A691D6CD53900E8F2AD /* EmailValidationRuleTests.swift in Sources */,
 				FA6A28271D6CE7EA00C2CA0B /* ValueMathcingValidationPredicate.swift in Sources */,
+				FA2293F81D7097A100CBB386 /* URLValidationPredicateTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -625,6 +642,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FA0B3A641D6CD52300E8F2AD /* EmailValidationPredicate.swift in Sources */,
+				FA2293F41D7096EF00CBB386 /* URLValidationRule.swift in Sources */,
 				FA6A282C1D6CE84C00C2CA0B /* ValueMatchingValidationPredicate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
