@@ -13,6 +13,6 @@ public struct URLValidationPredicate:  ValidationPredicate{
 
     public func evaluate(with input: String?) -> Bool {
         guard let input = input else { return false }
-        return NSURL(string: input) != nil
+        return URL(string: input) != nil
     }
 }
