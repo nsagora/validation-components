@@ -520,7 +520,7 @@
 			files = (
 			);
 			inputPaths = (
-				"$(SRCROOT)/../Carthage/Build/iOS/ValidationKit.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/ValidationKit.framework",
 			);
 			name = "Copy Carthage Framework";
 			outputPaths = (
@@ -535,7 +535,7 @@
 			files = (
 			);
 			inputPaths = (
-				"$(SRCROOT)/../Carthage/Build/Mac/ValidationKit.framework",
+				"$(SRCROOT)/Carthage/Build/Mac/ValidationKit.framework",
 			);
 			name = "Copy Carthage Framework";
 			outputPaths = (
@@ -550,7 +550,7 @@
 			files = (
 			);
 			inputPaths = (
-				"$(SRCROOT)/../Carthage/Build/tvOS/ValidationKit.framework",
+				"$(SRCROOT)/Carthage/Build/tvOS/ValidationKit.framework",
 			);
 			name = "Copy Carthage Framework";
 			outputPaths = (
@@ -565,7 +565,7 @@
 			files = (
 			);
 			inputPaths = (
-				"$(SRCROOT)/../Carthage/Build/watchOS/ValidationKit.framework",
+				"$(SRCROOT)/Carthage/Build/watchOS/ValidationKit.framework",
 			);
 			name = "Copy Carthage Framework";
 			outputPaths = (
@@ -714,7 +714,7 @@
 				ENABLE_TESTABILITY = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(SRCROOT)/../Carthage/build/iOS",
+					"$(SRCROOT)/Carthage/build/iOS",
 				);
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
@@ -780,7 +780,7 @@
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(SRCROOT)/../Carthage/build/iOS",
+					"$(SRCROOT)/Carthage/build/iOS",
 				);
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -939,7 +939,7 @@
 				ENABLE_TESTABILITY = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(SRCROOT)/../Carthage/build/Mac",
+					"$(SRCROOT)/Carthage/build/Mac",
 				);
 				FRAMEWORK_VERSION = A;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -1006,7 +1006,7 @@
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(SRCROOT)/../Carthage/build/Mac",
+					"$(SRCROOT)/Carthage/build/Mac",
 				);
 				FRAMEWORK_VERSION = A;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -1164,7 +1164,7 @@
 				ENABLE_TESTABILITY = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(SRCROOT)/../Carthage/build/tvOS",
+					"$(SRCROOT)/Carthage/build/tvOS",
 				);
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
@@ -1230,7 +1230,7 @@
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(SRCROOT)/../Carthage/build/tvOS",
+					"$(SRCROOT)/Carthage/build/tvOS",
 				);
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -1389,7 +1389,7 @@
 				ENABLE_TESTABILITY = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(SRCROOT)/../Carthage/build/watchOS",
+					"$(SRCROOT)/Carthage/build/watchOS",
 				);
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
@@ -1456,7 +1456,7 @@
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(SRCROOT)/../Carthage/build/watchOS",
+					"$(SRCROOT)/Carthage/build/watchOS",
 				);
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_NO_COMMON_BLOCKS = YES;
