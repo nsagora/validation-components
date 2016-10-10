@@ -22,7 +22,8 @@ env:
 before_install:
   - brew update
   - brew outdated carthage || brew upgrade carthage
-  - gem install xcpretty 
+  - gem install xcpretty --pre --no-rdoc --no-ri --no-document --quiet
+  - gem install cocoapods --pre --no-rdoc --no-ri --no-document --quiet
 
 script:
   - set -o pipefail
