@@ -379,7 +379,6 @@
 				FA1904A61D6AD727005E1E89 /* Frameworks */,
 				FA1904A71D6AD727005E1E89 /* Headers */,
 				FA1904A81D6AD727005E1E89 /* Resources */,
-				FAE2BA431D6AEC920020512C /* Copy Carthage Framework */,
 			);
 			buildRules = (
 			);
@@ -551,21 +550,6 @@
 			);
 			inputPaths = (
 				"$(SRCROOT)/Carthage/Build/tvOS/ValidationKit.framework",
-			);
-			name = "Copy Carthage Framework";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "/usr/local/bin/carthage copy-frameworks";
-		};
-		FAE2BA431D6AEC920020512C /* Copy Carthage Framework */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"$(SRCROOT)/Carthage/Build/watchOS/ValidationKit.framework",
 			);
 			name = "Copy Carthage Framework";
 			outputPaths = (
