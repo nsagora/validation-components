@@ -268,7 +268,6 @@
 				FA1904511D6AD6C5005E1E89 /* Frameworks */,
 				FA1904521D6AD6C5005E1E89 /* Headers */,
 				FA1904531D6AD6C5005E1E89 /* Resources */,
-				FAE2BA401D6AEC2C0020512C /* Copy Carthage Framework */,
 			);
 			buildRules = (
 			);
@@ -305,7 +304,6 @@
 				FA19046E1D6AD6E1005E1E89 /* Frameworks */,
 				FA19046F1D6AD6E1005E1E89 /* Headers */,
 				FA1904701D6AD6E1005E1E89 /* Resources */,
-				FAE2BA411D6AEC740020512C /* Copy Carthage Framework */,
 			);
 			buildRules = (
 			);
@@ -342,7 +340,6 @@
 				FA19048A1D6AD708005E1E89 /* Frameworks */,
 				FA19048B1D6AD708005E1E89 /* Headers */,
 				FA19048C1D6AD708005E1E89 /* Resources */,
-				FAE2BA421D6AEC850020512C /* Copy Carthage Framework */,
 			);
 			buildRules = (
 			);
@@ -511,54 +508,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
-
-/* Begin PBXShellScriptBuildPhase section */
-		FAE2BA401D6AEC2C0020512C /* Copy Carthage Framework */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"$(SRCROOT)/Carthage/Build/iOS/ValidationKit.framework",
-			);
-			name = "Copy Carthage Framework";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "/usr/local/bin/carthage copy-frameworks";
-		};
-		FAE2BA411D6AEC740020512C /* Copy Carthage Framework */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"$(SRCROOT)/Carthage/Build/Mac/ValidationKit.framework",
-			);
-			name = "Copy Carthage Framework";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "/usr/local/bin/carthage copy-frameworks";
-		};
-		FAE2BA421D6AEC850020512C /* Copy Carthage Framework */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"$(SRCROOT)/Carthage/Build/tvOS/ValidationKit.framework",
-			);
-			name = "Copy Carthage Framework";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "/usr/local/bin/carthage copy-frameworks";
-		};
-/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		FA1904501D6AD6C5005E1E89 /* Sources */ = {
