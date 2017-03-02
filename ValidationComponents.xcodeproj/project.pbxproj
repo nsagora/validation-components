@@ -25,6 +25,10 @@
 		FA2293F61D7097A100CBB386 /* URLValidationPredicateTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2293F51D7097A100CBB386 /* URLValidationPredicateTests.swift */; };
 		FA2293F71D7097A100CBB386 /* URLValidationPredicateTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2293F51D7097A100CBB386 /* URLValidationPredicateTests.swift */; };
 		FA2293F81D7097A100CBB386 /* URLValidationPredicateTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2293F51D7097A100CBB386 /* URLValidationPredicateTests.swift */; };
+		FA68C4B81E635F5D00EC7960 /* ValidationToolkit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA68C4B71E635F5D00EC7960 /* ValidationToolkit.framework */; };
+		FA68C4BA1E635F6500EC7960 /* ValidationToolkit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA68C4B91E635F6500EC7960 /* ValidationToolkit.framework */; };
+		FA68C4BC1E635F6E00EC7960 /* ValidationToolkit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA68C4BB1E635F6E00EC7960 /* ValidationToolkit.framework */; };
+		FA68C4BE1E635F7500EC7960 /* ValidationToolkit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA68C4BD1E635F7500EC7960 /* ValidationToolkit.framework */; };
 		FA6A28251D6CE7EA00C2CA0B /* ValueMathcingValidationPredicate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA6A28241D6CE7EA00C2CA0B /* ValueMathcingValidationPredicate.swift */; };
 		FA6A28261D6CE7EA00C2CA0B /* ValueMathcingValidationPredicate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA6A28241D6CE7EA00C2CA0B /* ValueMathcingValidationPredicate.swift */; };
 		FA6A28271D6CE7EA00C2CA0B /* ValueMathcingValidationPredicate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA6A28241D6CE7EA00C2CA0B /* ValueMathcingValidationPredicate.swift */; };
@@ -35,10 +39,6 @@
 		FAE2BA2C1D6AD9C80020512C /* ValidationComponents.h in Headers */ = {isa = PBXBuildFile; fileRef = FA1904B41D6AD99E005E1E89 /* ValidationComponents.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FAE2BA2D1D6AD9C90020512C /* ValidationComponents.h in Headers */ = {isa = PBXBuildFile; fileRef = FA1904B41D6AD99E005E1E89 /* ValidationComponents.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FAE2BA2E1D6AD9C90020512C /* ValidationComponents.h in Headers */ = {isa = PBXBuildFile; fileRef = FA1904B41D6AD99E005E1E89 /* ValidationComponents.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		FAE2BA391D6AEBD70020512C /* ValidationKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAE2BA381D6AEBD70020512C /* ValidationKit.framework */; };
-		FAE2BA3B1D6AEBE20020512C /* ValidationKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAE2BA3A1D6AEBE20020512C /* ValidationKit.framework */; };
-		FAE2BA3D1D6AEBEC0020512C /* ValidationKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAE2BA3C1D6AEBEC0020512C /* ValidationKit.framework */; };
-		FAE2BA3F1D6AEBF30020512C /* ValidationKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAE2BA3E1D6AEBF30020512C /* ValidationKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -80,6 +80,10 @@
 		FA1904B61D6AD99E005E1E89 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FA2293F01D7096EF00CBB386 /* URLValidationRule.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = URLValidationRule.swift; sourceTree = "<group>"; };
 		FA2293F51D7097A100CBB386 /* URLValidationPredicateTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = URLValidationPredicateTests.swift; sourceTree = "<group>"; };
+		FA68C4B71E635F5D00EC7960 /* ValidationToolkit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ValidationToolkit.framework; path = Carthage/Build/iOS/ValidationToolkit.framework; sourceTree = "<group>"; };
+		FA68C4B91E635F6500EC7960 /* ValidationToolkit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ValidationToolkit.framework; path = Carthage/Build/Mac/ValidationToolkit.framework; sourceTree = "<group>"; };
+		FA68C4BB1E635F6E00EC7960 /* ValidationToolkit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ValidationToolkit.framework; path = Carthage/Build/tvOS/ValidationToolkit.framework; sourceTree = "<group>"; };
+		FA68C4BD1E635F7500EC7960 /* ValidationToolkit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ValidationToolkit.framework; path = Carthage/Build/watchOS/ValidationToolkit.framework; sourceTree = "<group>"; };
 		FA6A28241D6CE7EA00C2CA0B /* ValueMathcingValidationPredicate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ValueMathcingValidationPredicate.swift; sourceTree = "<group>"; };
 		FA6A28281D6CE84C00C2CA0B /* ValueMatchingValidationPredicate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ValueMatchingValidationPredicate.swift; sourceTree = "<group>"; };
 		FAE2BA381D6AEBD70020512C /* ValidationKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ValidationKit.framework; path = ../Carthage/Build/Mac/ValidationKit.framework; sourceTree = "<group>"; };
@@ -93,7 +97,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FAE2BA3B1D6AEBE20020512C /* ValidationKit.framework in Frameworks */,
+				FA68C4B81E635F5D00EC7960 /* ValidationToolkit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -109,7 +113,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FAE2BA391D6AEBD70020512C /* ValidationKit.framework in Frameworks */,
+				FA68C4BA1E635F6500EC7960 /* ValidationToolkit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -125,7 +129,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FAE2BA3D1D6AEBEC0020512C /* ValidationKit.framework in Frameworks */,
+				FA68C4BC1E635F6E00EC7960 /* ValidationToolkit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -141,7 +145,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FAE2BA3F1D6AEBF30020512C /* ValidationKit.framework in Frameworks */,
+				FA68C4BE1E635F7500EC7960 /* ValidationToolkit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -214,6 +218,10 @@
 		FAE2BA371D6AEBD70020512C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				FA68C4BD1E635F7500EC7960 /* ValidationToolkit.framework */,
+				FA68C4BB1E635F6E00EC7960 /* ValidationToolkit.framework */,
+				FA68C4B91E635F6500EC7960 /* ValidationToolkit.framework */,
+				FA68C4B71E635F5D00EC7960 /* ValidationToolkit.framework */,
 				FAE2BA3E1D6AEBF30020512C /* ValidationKit.framework */,
 				FAE2BA3C1D6AEBEC0020512C /* ValidationKit.framework */,
 				FAE2BA3A1D6AEBE20020512C /* ValidationKit.framework */,
@@ -683,7 +691,7 @@
 				ENABLE_TESTABILITY = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(SRCROOT)/Carthage/build/iOS",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
 				);
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
@@ -702,7 +710,7 @@
 				INFOPLIST_FILE = Sources/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks $(FRAMEWORK_SEARCH_PATHS)";
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = ValidationComponents;
@@ -749,7 +757,7 @@
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(SRCROOT)/Carthage/build/iOS",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
 				);
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -762,7 +770,7 @@
 				INFOPLIST_FILE = Sources/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks $(FRAMEWORK_SEARCH_PATHS)";
 				MTL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_NAME = ValidationComponents;
 				SDKROOT = iphoneos;
@@ -817,7 +825,7 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				INFOPLIST_FILE = Tests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -864,7 +872,7 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				INFOPLIST_FILE = Tests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MTL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_NAME = "ValidationComponents Tests";
@@ -908,7 +916,7 @@
 				ENABLE_TESTABILITY = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(SRCROOT)/Carthage/build/Mac",
+					"$(PROJECT_DIR)/Carthage/Build/Mac",
 				);
 				FRAMEWORK_VERSION = A;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -927,7 +935,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				INFOPLIST_FILE = Sources/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks $(FRAMEWORK_SEARCH_PATHS)";
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -975,7 +983,7 @@
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(SRCROOT)/Carthage/build/Mac",
+					"$(PROJECT_DIR)/Carthage/Build/Mac",
 				);
 				FRAMEWORK_VERSION = A;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -988,7 +996,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				INFOPLIST_FILE = Sources/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks $(FRAMEWORK_SEARCH_PATHS)";
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_NAME = ValidationComponents;
@@ -1044,7 +1052,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				INFOPLIST_FILE = Tests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = "ValidationComponents Tests";
@@ -1092,7 +1100,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				INFOPLIST_FILE = Tests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_NAME = "ValidationComponents Tests";
 				SDKROOT = macosx;
@@ -1134,7 +1142,7 @@
 				ENABLE_TESTABILITY = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(SRCROOT)/Carthage/build/tvOS",
+					"$(PROJECT_DIR)/Carthage/Build/tvOS",
 				);
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
@@ -1152,7 +1160,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				INFOPLIST_FILE = Sources/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks $(FRAMEWORK_SEARCH_PATHS)";
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = ValidationComponents;
@@ -1201,7 +1209,7 @@
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(SRCROOT)/Carthage/build/tvOS",
+					"$(PROJECT_DIR)/Carthage/Build/tvOS",
 				);
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -1213,7 +1221,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				INFOPLIST_FILE = Sources/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks $(FRAMEWORK_SEARCH_PATHS)";
 				MTL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_NAME = ValidationComponents;
 				SDKROOT = appletvos;
@@ -1277,7 +1285,7 @@
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
-				TVOS_DEPLOYMENT_TARGET = 10.0;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
 			};
 			name = Debug;
 		};
@@ -1322,7 +1330,7 @@
 				SDKROOT = appletvos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 3.0;
-				TVOS_DEPLOYMENT_TARGET = 10.0;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -1361,7 +1369,7 @@
 				ENABLE_TESTABILITY = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(SRCROOT)/Carthage/build/watchOS",
+					"$(PROJECT_DIR)/Carthage/Build/watchOS",
 				);
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
@@ -1379,7 +1387,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				INFOPLIST_FILE = Sources/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks $(FRAMEWORK_SEARCH_PATHS)";
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = ValidationComponents;
@@ -1429,7 +1437,7 @@
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(SRCROOT)/Carthage/build/watchOS",
+					"$(PROJECT_DIR)/Carthage/Build/watchOS",
 				);
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -1441,7 +1449,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				INFOPLIST_FILE = Sources/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks $(FRAMEWORK_SEARCH_PATHS)";
 				MTL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_NAME = ValidationComponents;
 				SDKROOT = watchos;

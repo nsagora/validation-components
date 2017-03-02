@@ -7,7 +7,7 @@
 //
 
 import Foundation
-import ValidationKit
+import ValidationToolkit
 
 public struct ValueMatchingValidationPredicate<T:Equatable>: ValidationPredicate {
 
