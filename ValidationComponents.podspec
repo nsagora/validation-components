@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'ValidationComponents'
-  s.version          = '0.2.0'
+  s.version          = '0.3.0'
   s.summary          = 'Lightweight framework for input validation'
 
 # This description is used to generate tags and improve search results.
@@ -30,5 +30,7 @@ Pod::Spec.new do |s|
   s.tvos.deployment_target = '9.0'
   s.watchos.deployment_target = '2.0'
 
-  s.source_files = 'Sources/**'
+  s.source_files = 'Sources/*.swift'
+
+  s.dependency 'ValidationToolkit', '~> 0.4.1'
 end

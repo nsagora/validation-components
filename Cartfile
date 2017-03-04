@@ -1,1 +1,1 @@
-github "alexcristea/validation-kit" "develop"
+github "nsagora/validation-toolkit" ~> 0.4.1
