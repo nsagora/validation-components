@@ -12,21 +12,16 @@ import XCTest
 
 class ValueMatchingValidationPredicateTests: XCTestCase {
 
-    var predicate: ValueMatchingValidationPredicate<String>!
+    var predicate: ValueMatchingPredicate<String>!
 
     override func setUp() {
         super.setUp()
-        predicate = ValueMatchingValidationPredicate()
+        predicate = ValueMatchingPredicate()
     }
     
     override func tearDown() {
         predicate = nil
         super.tearDown()
-    }
-
-    func testThatItFailsForNil() {
-        let result = predicate.evaluate(with: nil)
-        XCTAssertFalse(result)
     }
 
     func testThatItPassesForNilIputs() {

@@ -9,13 +9,11 @@
 import Foundation
 import ValidationToolkit
 
-public struct ValueMatchingValidationPredicate<T:Equatable>: ValidationPredicate {
+public struct ValueMatchingPredicate<T:Equatable>: Predicate {
 
     public typealias InputType = (T?, T?)
 
-    public func evaluate(with input: InputType?) -> Bool {
-
-        guard let input = input else { return false }
+    public func evaluate(with input: InputType) -> Bool {
         return input.0 == input.1
     }
 }

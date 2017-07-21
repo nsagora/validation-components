@@ -9,25 +9,19 @@
 import XCTest
 @testable import ValidationComponents
 
-class URLValidationPredicateTests: XCTestCase {
+class URLPredicateTests: XCTestCase {
 
 
-    var predicate: URLValidationPredicate!
+    var predicate: URLPredicate!
 
     override func setUp() {
         super.setUp()
-        predicate = URLValidationPredicate()
+        predicate = URLPredicate()
     }
     
     override func tearDown() {
         predicate = nil
         super.tearDown()
-    }
-
-    func testThatItEvaluateNilInputToFalse() {
-
-        let result = predicate.evaluate(with: nil)
-        XCTAssertFalse(result)
     }
 
     func testThatItEvaluatesValuidURLToTrue() {
@@ -39,5 +33,4 @@ class URLValidationPredicateTests: XCTestCase {
         let result = predicate.evaluate(with: "http:\\www.url.com")
         XCTAssertFalse(result)
     }
-
 }

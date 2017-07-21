@@ -9,23 +9,18 @@
 import XCTest
 @testable import ValidationComponents
 
-class EmailValidationPredicateTests: XCTestCase {
+class EmailPredicateTests: XCTestCase {
 
-    var rule: EmailValidationPredicate!
+    var rule: EmailPredicate!
 
     override func setUp() {
         super.setUp()
-        rule = EmailValidationPredicate()
+        rule = EmailPredicate()
     }
     
     override func tearDown() {
         rule = nil
         super.tearDown()
-    }
-
-    func testThatItFailsForNil() {
-        let result = rule.evaluate(with: nil)
-        XCTAssertFalse(result)
     }
 
     func testThatItFailsForInvalidEmail() {

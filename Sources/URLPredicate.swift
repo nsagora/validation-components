@@ -9,10 +9,9 @@
 import Foundation
 import ValidationToolkit
 
-public struct URLValidationPredicate:  ValidationPredicate{
+public struct URLPredicate:  Predicate {
 
-    public func evaluate(with input: String?) -> Bool {
-        guard let input = input else { return false }
+    public func evaluate(with input: String) -> Bool {
         return URL(string: input) != nil
     }
 }
