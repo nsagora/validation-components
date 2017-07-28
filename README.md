@@ -195,8 +195,8 @@ Distributed under the [MIT][url-license] license. See `LICENSE` for more informa
 [url-swift-package-manager]: https://swift.org/package-manager
 [url-swift-package-manager-github]: https://github.com/apple/swift-package-manager
 
-[badge-validation-toolkit]: https://img.shields.io/badge/validation%20toolkit-0.4.1-blue.svg?style=flat
-[badge-version]: https://img.shields.io/badge/version-0.3.0-blue.svg?style=flat
+[badge-validation-toolkit]: https://img.shields.io/badge/validation%20toolkit-0.5.0-blue.svg?style=flat
+[badge-version]: https://img.shields.io/badge/version-0.4.0-blue.svg?style=flat
 [badge-twitter]: https://img.shields.io/badge/twitter-%40nsgaora-blue.svg?style=flat
 [badge-license]: https://img.shields.io/badge/license-MIT-blue.svg?style=flat
 [badge-travis]: https://travis-ci.org/nsagora/validation-components.svg?branch=develop
