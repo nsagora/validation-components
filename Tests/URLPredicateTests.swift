@@ -1,5 +1,5 @@
 //
-//  URLValidationPredicateTests.swift
+//  URLPredicateTests.swift
 //  ValidationComponents
 //
 //  Created by Alex Cristea on 26/08/16.

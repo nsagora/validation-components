@@ -1,5 +1,5 @@
 //
-//  ValueMathcingValidationPredicate.swift
+//  PairMatchingPredicatePredicate.swift
 //  ValidationComponents
 //
 //  Created by Alex Cristea on 23/08/16.
@@ -10,13 +10,13 @@ import XCTest
 @testable import ValidationComponents
 
 
-class ValueMatchingValidationPredicateTests: XCTestCase {
+class PairMatchingPredicateTests: XCTestCase {
 
-    var predicate: ValueMatchingPredicate<String>!
+    var predicate: PairMatchingPredicate<String>!
 
     override func setUp() {
         super.setUp()
-        predicate = ValueMatchingPredicate()
+        predicate = PairMatchingPredicate()
     }
     
     override func tearDown() {

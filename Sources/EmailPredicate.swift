@@ -1,5 +1,5 @@
 //
-//  EmailValidationPredicate.swift
+//  EmailPredicate.swift
 //  Validator
 //
 //  Created by Alex Cristea on 07/08/16.

@@ -14,9 +14,9 @@
 	- [Swift Package Manager](#swift-package-manager)
 	- [Manually](#manually)
 4. [Usage Examples](#usage-examples)
-	- [Email](#predicates)
-	- [Constraints](#constraints)
-	- [Constraint Sets](#constraint-sets)
+	- [Email Predicate](#email-predicate)
+	- [URL Predicate](#url-predicate)
+	- [Pair Matching Predicate](#pair-matching-predicate)
 6. [Contribute](#contribute)
 7. [Meta](#meta)
 
@@ -155,12 +155,12 @@ predicate.evaluate(with: "http://www.url.com") // returns true
 predicate.evaluate(with: "http:\\www.url.com") // returns false
 ```
 
-### Value Matching Predicate
+### Pair Matching Predicate
 
 ```swift
 import ValidationComponents
 
-let predicate = ValueMatchingPredicate()
+let predicate = PairMatchingPredicate()
 predicate.evaluate(with: ("swift", "swift")) // returns true
 predicate.evaluate(with: ("swift", "obj-c")) // returns false
 ```
