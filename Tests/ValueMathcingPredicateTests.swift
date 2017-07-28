@@ -30,12 +30,12 @@ class ValueMatchingValidationPredicateTests: XCTestCase {
     }
 
     func testThatItPassesForMatchingInputs() {
-        let result = predicate.evaluate(with: ("match", "match"))
+        let result = predicate.evaluate(with: ("nsagora", "nsagora"))
         XCTAssertTrue(result)
     }
 
     func testThatItFailsForUnmatchingInputs() {
-        let result = predicate.evaluate(with: ("match", "unmatch"))
+        let result = predicate.evaluate(with: ("nsagora", "obj-c"))
         XCTAssertFalse(result)
     }
 }

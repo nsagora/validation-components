@@ -11,33 +11,33 @@ import XCTest
 
 class EmailPredicateTests: XCTestCase {
 
-    var rule: EmailPredicate!
+    var predicate: EmailPredicate!
 
     override func setUp() {
         super.setUp()
-        rule = EmailPredicate()
+        predicate = EmailPredicate()
     }
     
     override func tearDown() {
-        rule = nil
+        predicate = nil
         super.tearDown()
     }
 
     func testThatItFailsForInvalidEmail() {
         let email = "test@"
-        let result = rule.evaluate(with: email)
+        let result = predicate.evaluate(with: email)
         XCTAssertFalse(result)
     }
 
     func testThatItPassesForValidEmail() {
         let email = "test@example.com"
-        let result = rule.evaluate(with: email)
+        let result = predicate.evaluate(with: email)
         XCTAssertTrue(result)
     }
 
     func testThatItPassesForUTF8() {
         let email = "tést@example.com"
-        let result = rule.evaluate(with: email)
+        let result = predicate.evaluate(with: email)
         XCTAssertTrue(result)
     }
 }
