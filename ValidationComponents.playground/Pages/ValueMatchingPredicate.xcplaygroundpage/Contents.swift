@@ -6,7 +6,7 @@ import ValidationComponents
 /*:
  ## `PairMatchingPredicate`
  
- Use a `PairMatchingPredicate` to evaluate if a pair of values match.
+ Use a `PairMatchingPredicate` to evaluate if a given pair of values match.
  */
 
 let predicate = PairMatchingPredicate<String>()

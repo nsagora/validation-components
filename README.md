@@ -116,8 +116,10 @@ To use this library in your project manually you may:
 
 ## Usage example
 For a comprehensive list of examples try the `ValidationComponents.playground`:
+
 1. Download the repository locally on your machine
 2. Run `carthage update` to build the required version of `ValidationToolkit`
+
 <details>
 <summary>Setting up Carthage</summary>
 
@@ -130,11 +132,13 @@ $ brew update
 $ brew install carthage
 ```
 </details> 
+
 3. Open `ValidationComponents.workspace`
 4. Build `ValidationComponents iOS` target
 5. Select the `ValidationComponents` playgrounds from the Project navigator.
 
 ### Email Predicate
+Use a `EmailPredicate` to evaluate if a given email address is syntactically valid.
 
 ```swift
 import ValidationComponents
@@ -146,6 +150,7 @@ predicate.evaluate(with: "héllo@nsagora.com") // returns true
 ```
 
 ### URL Predicate
+Use a `URLPredicate` to evaluate if a given URL is syntactically valid.
 
 ```swift
 import ValidationComponents
@@ -156,6 +161,7 @@ predicate.evaluate(with: "http:\\www.url.com") // returns false
 ```
 
 ### Pair Matching Predicate
+Use a `PairMatchingPredicate` to evaluate if a given pair of values match.
 
 ```swift
 import ValidationComponents

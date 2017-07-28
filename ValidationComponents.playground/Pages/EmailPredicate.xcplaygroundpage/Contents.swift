@@ -5,7 +5,7 @@ import ValidationComponents
 /*:
  ## `EmailPredicate`
  
- Use a `EmailPredicate` to evaluate if an email address is syntactically valid.
+ Use a `EmailPredicate` to evaluate if a given email address is syntactically valid.
  */
 
 let predicate = EmailPredicate()
