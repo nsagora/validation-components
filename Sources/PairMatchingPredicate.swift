@@ -1,5 +1,5 @@
 //
-//  ValueMatchingValidationPredicate.swift
+//  PairMatchingPredicate.swift
 //  ValidationComponents
 //
 //  Created by Alex Cristea on 23/08/16.
@@ -9,13 +9,13 @@
 import Foundation
 import ValidationToolkit
 
-public struct ValueMatchingValidationPredicate<T:Equatable>: ValidationPredicate {
+public struct PairMatchingPredicate<T:Equatable>: Predicate {
 
     public typealias InputType = (T?, T?)
 
-    public func evaluate(with input: InputType?) -> Bool {
-
-        guard let input = input else { return false }
+    public init() { }
+    
+    public func evaluate(with input: InputType) -> Bool {
         return input.0 == input.1
     }
 }

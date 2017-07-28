@@ -1,5 +1,5 @@
 //
-//  URLValidationRule.swift
+//  URLPredicate.swift
 //  ValidationComponents
 //
 //  Created by Alex Cristea on 26/08/16.
@@ -9,10 +9,11 @@
 import Foundation
 import ValidationToolkit
 
-public struct URLValidationPredicate:  ValidationPredicate{
+public struct URLPredicate:  Predicate {
 
-    public func evaluate(with input: String?) -> Bool {
-        guard let input = input else { return false }
+    public init() { }
+    
+    public func evaluate(with input: String) -> Bool {
         return URL(string: input) != nil
     }
 }
