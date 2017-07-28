@@ -1,5 +1,5 @@
 //
-//  ValueMathcingValidationPredicate.swift
+//  PairMatchingPredicatePredicate.swift
 //  ValidationComponents
 //
 //  Created by Alex Cristea on 23/08/16.
@@ -10,23 +10,18 @@ import XCTest
 @testable import ValidationComponents
 
 
-class ValueMatchingValidationPredicateTests: XCTestCase {
+class PairMatchingPredicateTests: XCTestCase {
 
-    var predicate: ValueMatchingValidationPredicate<String>!
+    var predicate: PairMatchingPredicate<String>!
 
     override func setUp() {
         super.setUp()
-        predicate = ValueMatchingValidationPredicate()
+        predicate = PairMatchingPredicate()
     }
     
     override func tearDown() {
         predicate = nil
         super.tearDown()
-    }
-
-    func testThatItFailsForNil() {
-        let result = predicate.evaluate(with: nil)
-        XCTAssertFalse(result)
     }
 
     func testThatItPassesForNilIputs() {
@@ -35,12 +30,12 @@ class ValueMatchingValidationPredicateTests: XCTestCase {
     }
 
     func testThatItPassesForMatchingInputs() {
-        let result = predicate.evaluate(with: ("match", "match"))
+        let result = predicate.evaluate(with: ("nsagora", "nsagora"))
         XCTAssertTrue(result)
     }
 
     func testThatItFailsForUnmatchingInputs() {
-        let result = predicate.evaluate(with: ("match", "unmatch"))
+        let result = predicate.evaluate(with: ("nsagora", "obj-c"))
         XCTAssertFalse(result)
     }
 }
