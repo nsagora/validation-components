@@ -173,7 +173,7 @@ We would love you for the contribution to **ValidationComponents**, check the ``
 
 This project developed and maintained by the members of [iOS NSAgora][url-nsagora], the community of iOS Developers of Iași, Romania.
 
-Distributed under the [Apache License 2.0][url-license] license. See `LICENSE` for more information.
+Distributed under the [MIT][url-license] license. See `LICENSE` for more information.
 
 [https://github.com/nsagora/validation-components][url-validation-components]
 
@@ -181,7 +181,7 @@ Distributed under the [Apache License 2.0][url-license] license. See `LICENSE` f
 [url-validation-components]: https://github.com/nsagora/validation-components
 [url-nsagora]: https://twitter.com/nsagora
 [url-twitter]: https://twitter.com/nsagora
-[url-license]: http://choosealicense.com/licenses/apache-2.0/
+[url-license]: http://choosealicense.com/licenses/mit/
 [url-travis]: https://travis-ci.org/nsagora/validation-components
 [url-codecov]: https://codecov.io/gh/nsagora/validation-components
 
@@ -198,7 +198,7 @@ Distributed under the [Apache License 2.0][url-license] license. See `LICENSE` f
 [badge-validation-toolkit]: https://img.shields.io/badge/validation%20toolkit-0.4.1-blue.svg?style=flat
 [badge-version]: https://img.shields.io/badge/version-0.3.0-blue.svg?style=flat
 [badge-twitter]: https://img.shields.io/badge/twitter-%40nsgaora-blue.svg?style=flat
-[badge-license]: https://img.shields.io/badge/license-Apache%20License%202.0-blue.svg?style=flat
+[badge-license]: https://img.shields.io/badge/license-MIT-blue.svg?style=flat
 [badge-travis]: https://travis-ci.org/nsagora/validation-components.svg?branch=develop
 [badge-codecov]: https://codecov.io/gh/nsagora/validation-components/branch/develop/graph/badge.svg
 [badge-carthage]: https://img.shields.io/badge/carthage-compatible-4BC51D.svg?style=flat
