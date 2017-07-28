@@ -86,10 +86,6 @@
 		FA68C4BD1E635F7500EC7960 /* ValidationToolkit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ValidationToolkit.framework; path = Carthage/Build/watchOS/ValidationToolkit.framework; sourceTree = "<group>"; };
 		FA6A28241D6CE7EA00C2CA0B /* PairMatchingPredicateTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PairMatchingPredicateTests.swift; sourceTree = "<group>"; };
 		FA6A28281D6CE84C00C2CA0B /* PairMatchingPredicate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PairMatchingPredicate.swift; sourceTree = "<group>"; };
-		FAE2BA381D6AEBD70020512C /* ValidationKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ValidationKit.framework; path = ../Carthage/Build/Mac/ValidationKit.framework; sourceTree = "<group>"; };
-		FAE2BA3A1D6AEBE20020512C /* ValidationKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ValidationKit.framework; path = ../Carthage/Build/iOS/ValidationKit.framework; sourceTree = "<group>"; };
-		FAE2BA3C1D6AEBEC0020512C /* ValidationKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ValidationKit.framework; path = ../Carthage/Build/tvOS/ValidationKit.framework; sourceTree = "<group>"; };
-		FAE2BA3E1D6AEBF30020512C /* ValidationKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ValidationKit.framework; path = ../Carthage/Build/watchOS/ValidationKit.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -238,10 +234,6 @@
 				FA68C4BB1E635F6E00EC7960 /* ValidationToolkit.framework */,
 				FA68C4B91E635F6500EC7960 /* ValidationToolkit.framework */,
 				FA68C4B71E635F5D00EC7960 /* ValidationToolkit.framework */,
-				FAE2BA3E1D6AEBF30020512C /* ValidationKit.framework */,
-				FAE2BA3C1D6AEBEC0020512C /* ValidationKit.framework */,
-				FAE2BA3A1D6AEBE20020512C /* ValidationKit.framework */,
-				FAE2BA381D6AEBD70020512C /* ValidationKit.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -422,7 +414,6 @@
 				TargetAttributes = {
 					FA1904541D6AD6C5005E1E89 = {
 						CreatedOnToolsVersion = 8.0;
-						DevelopmentTeam = JJUR3MD8QA;
 						LastSwiftMigration = 0800;
 						ProvisioningStyle = Automatic;
 					};
@@ -433,7 +424,6 @@
 					};
 					FA1904711D6AD6E1005E1E89 = {
 						CreatedOnToolsVersion = 8.0;
-						DevelopmentTeam = JJUR3MD8QA;
 						ProvisioningStyle = Automatic;
 					};
 					FA1904791D6AD6E1005E1E89 = {
@@ -443,17 +433,14 @@
 					};
 					FA19048D1D6AD708005E1E89 = {
 						CreatedOnToolsVersion = 8.0;
-						DevelopmentTeam = JJUR3MD8QA;
 						ProvisioningStyle = Automatic;
 					};
 					FA1904951D6AD708005E1E89 = {
 						CreatedOnToolsVersion = 8.0;
-						DevelopmentTeam = JJUR3MD8QA;
 						ProvisioningStyle = Automatic;
 					};
 					FA1904A91D6AD727005E1E89 = {
 						CreatedOnToolsVersion = 8.0;
-						DevelopmentTeam = JJUR3MD8QA;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -700,6 +687,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = "";
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
@@ -766,6 +754,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = "";
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
@@ -925,6 +914,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = "";
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
@@ -992,6 +982,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = "";
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
@@ -1151,6 +1142,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = "";
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
@@ -1218,6 +1210,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = "";
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
@@ -1276,6 +1269,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -1329,6 +1323,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = "";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -1378,6 +1373,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = "";
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
@@ -1446,6 +1442,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = "";
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
