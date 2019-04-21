@@ -2,6 +2,12 @@
 
 -------
 
+# Maintenance Status
+
+[Validation Components][url-validation-components] is now an integrated part of [Validation Toolkit][url-validation-toolkit].
+
+For more details on how you can empower data validation in your projcts, checkout [Validation Toolkit][url-validation-toolkit] 😋.
+
 # Validation Components
 [![badge-travis]][url-travis] [![badge-codecov]][url-codecov] [![badge-carthage]][url-carthage] [![badge-license]][url-license] [![badge-twitter]][url-twitter] [![badge-version]][url-validation-components]
  [![badge-validation-toolkit]][url-validation-toolkit]
