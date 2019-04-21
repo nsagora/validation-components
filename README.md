@@ -2,9 +2,9 @@
 
 -------
 
-# Maintenance Status
+# Maintenance Status [![badge-support]][url-validation-components]
 
-[Validation Components][url-validation-components] is now an integrated part of [Validation Toolkit][url-validation-toolkit].
+[Validation Components][url-validation-components] is now an integrated part of [Validation Toolkit][url-validation-toolkit] and we don't maintain it as a standalone framework anymore. 
 
 For more details on how you can empower data validation in your projects, checkout [Validation Toolkit][url-validation-toolkit] 😋.
 
@@ -208,6 +208,7 @@ Distributed under the [MIT][url-license] license. See `LICENSE` for more informa
 [url-swift-package-manager-github]: https://github.com/apple/swift-package-manager
 
 [badge-validation-toolkit]: https://img.shields.io/badge/validation%20toolkit-0.5.0-blue.svg?style=flat
+[badge-support]: https://img.shields.io/badge/-⚠️stopped-red.svg?style=flat
 [badge-version]: https://img.shields.io/badge/version-0.4.0-blue.svg?style=flat
 [badge-twitter]: https://img.shields.io/badge/twitter-%40nsgaora-blue.svg?style=flat
 [badge-license]: https://img.shields.io/badge/license-MIT-blue.svg?style=flat
